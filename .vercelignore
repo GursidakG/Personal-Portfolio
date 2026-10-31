@@ -1,0 +1,15 @@
+# Allowlist: ignore everything in the root, then allow only what the site serves.
+# A new file stays private until it is added here.
+/*
+!index.html
+!*.css
+!*.js
+!assets
+!robots.txt
+!llms.txt
+!resume.json
+!vercel.json
+
+# Earlier hero imagery, not referenced by the page.
+assets/developer-portrait.jpg
+assets/developer.svg

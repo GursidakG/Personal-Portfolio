@@ -1,0 +1,34 @@
+# Gursidak Singh Grover
+
+> Second-year Software Engineering student at York University's Lassonde School of Engineering, Software Engineering Intern at SensTek Diagnostics, and Co-Founder & CTO of Redstone Automations (formerly AIVAA). Based in Brampton, Ontario, Canada. Seeking a Software Engineering internship for Summer 2027. Long-term goal: work at NVIDIA.
+
+This is a single-page personal portfolio. The page includes an in-browser assistant that answers questions from the same content; nothing on the site calls an external API.
+
+## Experience
+
+- Software Engineering Intern, SensTek Diagnostics (May 2026 to present): full-stack proposal in Django/DRF, React and React Native that became the team's roadmap; Python tracking scripts and MySQL connecting lab equipment to the web app; dependency-graph visualizer and PR-commenting bot that cut review time by about 30%; redesigned the senstekdx.com landing page.
+- Co-Founder & CTO, [Redstone Automations](https://redstoneautomations.si) (February 2026 to present): AI agents, automated workflows and websites for small and mid-sized businesses; main forward-deployed engineer building voice agents with custom knowledge bases tied to client calendars; multi-step LLM tool calling into client APIs, CRMs and email, validated with RAG and guardrails; owns the full sales cycle for about 15 active customers.
+- Mobile App Developer, Nutritionwize Diet Clinic (July to September 2025): gathered dietitian requirements and wrote feature specs (practitioner efficiency up 10%); PRD and three-module React Native app (AI chat, telehealth, dietitian portal) piloted with 100+ patients and practitioners; Node.js CSV validation; GPT-4o chat; Go search API with p95 latency down 12%.
+
+## Projects
+
+- [NoteVis](https://chromewebstore.google.com/detail/notevis/iocjnepieopkfcmheegkoccpkdjdnlmi): Chrome extension that turns any webpage into structured study notes (summary, key points, glossary) on-device; local-first, no account; on the Chrome Web Store with a 5.0 rating.
+- [Chess Engine](https://github.com/GursidakG/Chess): playable Python chess app (Pygame, python-chess) with a threaded minimax AI using alpha-beta pruning; about 70% win rate against intermediate players.
+- Also on GitHub: [Weather Dashboard](https://github.com/GursidakG/Weather-Dashboard) (React, Open-Meteo), [Ember Tide Crystal Temple](https://github.com/GursidakG/Ember-Tide-Crystal-Temple) (JavaScript puzzle-platformer), [What Are The Odds](https://github.com/GursidakG/WhatAreTheOdds-) (live sportsbook odds comparison).
+- [Nutritionwize App](index.html#projects): full-stack React Native app with AI chat, data imports and a Go search API.
+
+## Skills
+
+Python, JavaScript/TypeScript, Java, C++, Go; React/Next.js, Node.js, Django/DRF, React Native; Git/GitHub, SQL/MySQL, AWS, REST APIs, data structures and algorithms, LLMs and RAG. Speaks English, Punjabi, Hindi and French.
+
+## Achievements
+
+Distinction in the Canadian Computing Competition and the Fermat Mathematics Competition; Peel Region Hackathon winner; Google Data Analytics and Google Cybersecurity certificates; AWS Certified Cloud Practitioner in progress. Executive Member of YorkU CS Hub; former Hack Club executive (200+ participants).
+
+## Links
+
+- [Résumé (PDF)](assets/Gursidak-Grover-Resume.pdf)
+- [JSON Resume](resume.json)
+- [LinkedIn](https://www.linkedin.com/in/gursidak-singh-grover-a8a345256/)
+- [GitHub](https://github.com/GursidakG)
+- Email: gursidakg123@gmail.com

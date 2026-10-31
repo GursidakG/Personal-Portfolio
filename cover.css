@@ -1,0 +1,203 @@
+/* The cover: a field of warm particles assembles into the portrait; the name runs along the bottom edge.
+   The wrapper is the runway: the cover stays pinned while the camera flies through the field. */
+/* The page slides up over the last stretch of the runway, so the fly-through ends as the header arrives. */
+.cover-wrap { position: relative; z-index: 0; height: 300svh; margin-bottom: -100svh; }
+.site-header, main { position: relative; z-index: 1; }
+main { background: var(--cream); }
+.site-header { position: sticky; }
+.cover {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  background: var(--cream);
+  color: var(--espresso);
+  overflow: hidden;
+  isolation: isolate;
+  --cover-p: 0;
+}
+/* Once the entrance has played, scroll progress takes over the opacity of the chrome and the name. */
+.cover.is-settled .cover-top, .cover.is-settled .cover-lede, .cover.is-settled .cover-enter {
+  animation: none;
+  opacity: calc(1 - var(--cover-p) * 3.2);
+}
+.cover.is-settled .cover-name {
+  animation: none;
+  opacity: calc(1 - var(--cover-p) * 2.4);
+  scale: calc(1 + var(--cover-p) * .55);
+  translate: 0 calc(var(--cover-p) * 28%);
+  transform-origin: 50% 100%;
+}
+.cover.is-leaving .cover-top, .cover.is-leaving .cover-lede, .cover.is-leaving .cover-enter { pointer-events: none; }
+.cover-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.cover-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 56px 1.2fr 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  padding: 28px 56px 0;
+}
+.cover-top .brand .khanda { width: 40px; height: 40px; }
+.cover-meta { display: contents; margin: 0; }
+.cover-meta div { min-width: 0; }
+.cover-meta dt { font-size: 12px; font-weight: 600; letter-spacing: .4px; color: var(--muted); margin: 10px 0 4px; }
+.cover-meta dd { margin: 0; font-size: 14px; line-height: 1.55; color: var(--espresso); }
+.cover-meta a { color: inherit; text-decoration: underline; text-decoration-color: #c9ae8f; text-underline-offset: 3px; transition: color .2s, text-decoration-color .2s; }
+.cover-meta a:hover { color: var(--rust); text-decoration-color: var(--rust); }
+.cover-time { color: var(--muted); font-variant-numeric: tabular-nums; }
+.cover-nav dd { text-align: right; }
+.cover-lede {
+  position: absolute;
+  left: 56px;
+  bottom: clamp(170px, 20vw, 270px);
+  max-width: 440px;
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+.cover-enter {
+  position: absolute;
+  right: 56px;
+  bottom: clamp(170px, 20vw, 270px);
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 50px;
+  padding: 12px 20px 12px 24px;
+  border: 1px solid #b7a38d;
+  border-radius: 30px;
+  background: rgb(255 255 255 / .35);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--espresso);
+  transition: background .2s, border-color .2s, transform .3s var(--ease-out);
+}
+.cover-enter .icon { width: 16px; height: 16px; transition: translate .3s var(--ease-out); }
+.cover-enter:hover { background: #fcf7ef; border-color: var(--caramel); transform: translateY(-2px); }
+.cover-enter:hover .icon { translate: 0 2px; }
+.cover-name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.06em;
+  margin: 0;
+  padding: 0 16px;
+  font: italic 500 clamp(64px, 10.6vw, 160px)/0.95 var(--serif);
+  letter-spacing: -0.035em;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--espresso);
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+.cover-surname { color: var(--rust); }
+.motion-ready .cover-top, .motion-ready .cover-lede, .motion-ready .cover-enter { animation: cover-fade 1s var(--ease-out) .9s both; }
+.motion-ready .cover-name { animation: cover-rise 1.2s var(--ease-out) .5s both; }
+@keyframes cover-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes cover-rise { from { opacity: 0; translate: 0 .25em; } to { opacity: 1; translate: 0 0; } }
+
+@media (max-width: 1100px) {
+  .cover-top { grid-template-columns: 48px 1.4fr 1fr; padding-inline: 36px; gap: 28px; }
+  .cover-nav { display: none; }
+  .cover-lede, .cover-enter { left: 36px; }
+  .cover-enter { left: auto; right: 36px; }
+}
+@media (max-width: 700px) {
+  .cover-top { grid-template-columns: 40px 1fr; padding: 18px 20px 0; gap: 16px; }
+  .cover-top .brand .khanda { width: 34px; height: 34px; }
+  .cover-meta div:nth-child(2) { display: none; }
+  .cover-meta dt { margin-top: 4px; }
+  .cover-meta dd { font-size: 13px; }
+  .cover-lede { left: 20px; right: 20px; bottom: 282px; max-width: none; font-size: 15px; line-height: 1.5; }
+  .cover-enter { right: 20px; left: 20px; bottom: 222px; justify-content: space-between; }
+  .cover-name { font-size: clamp(56px, 20vw, 96px); line-height: .95; white-space: normal; left: 12px; right: 12px; bottom: 18px; }
+  .cover-name span { display: block; }
+}
+
+/* The companion: a small version of the figure that keeps pace down the page. */
+.companion {
+  position: fixed;
+  right: 20px;
+  bottom: 18px;
+  z-index: 40;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  opacity: 0;
+  visibility: hidden;
+  translate: 0 24px;
+  transition: opacity .45s var(--ease-out), translate .55s var(--ease-out), visibility 0s .45s;
+  pointer-events: none;
+}
+.companion.is-visible { opacity: 1; visibility: visible; translate: 0 0; pointer-events: auto; transition-delay: 0s, 0s, 0s; }
+body.holo-sheet .companion { opacity: 0; visibility: hidden; pointer-events: none; transition-delay: 0s, 0s, .45s; }
+.companion-bubble {
+  max-width: 250px;
+  margin: 0 0 54px;
+  padding: 10px 14px;
+  background: #fcf7ef;
+  border: 1px solid #ddc7ab;
+  border-radius: 14px 14px 4px 14px;
+  box-shadow: 0 14px 28px -14px rgb(98 66 35 / .45);
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--espresso);
+  transition: opacity .25s, translate .3s var(--ease-out);
+}
+.companion-bubble:empty { opacity: 0; }
+.companion-bubble.is-swapping { opacity: 0; translate: 0 6px; }
+.companion-figure {
+  width: 96px;
+  height: 130px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  transition: transform .3s var(--ease-out);
+}
+.companion-figure:hover { transform: translateY(-3px); }
+.companion-figure:focus-visible { outline: 3px solid var(--rust); outline-offset: 6px; border-radius: 48px 48px 10px 10px; }
+.companion-svg { display: block; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 12px 16px rgb(46 31 22 / .18)); }
+.companion-arm { transform-box: view-box; transform-origin: 220px 182px; transition: transform .45s cubic-bezier(.34, 1.2, .64, 1); }
+.companion.is-pointing .companion-arm { transform: rotate(-150deg); }
+.companion-figure:hover .companion-arm { transform: rotate(-150deg); }
+.companion-dismiss {
+  position: absolute;
+  right: -4px;
+  top: 34px;
+  width: 26px;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #fcf7ef;
+  color: var(--muted);
+  opacity: 0;
+  transition: opacity .2s, color .2s;
+}
+.companion:hover .companion-dismiss, .companion:focus-within .companion-dismiss { opacity: 1; }
+.companion-dismiss:hover { color: var(--rust); }
+.companion-dismiss .icon { width: 12px; height: 12px; }
+
+@media (max-width: 700px) {
+  .companion { right: 12px; bottom: 12px; gap: 6px; }
+  .companion-figure { width: 72px; height: 98px; }
+  .companion-bubble { max-width: 200px; margin-bottom: 40px; font-size: 13px; }
+  .companion-dismiss { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cover-wrap { height: auto; margin-bottom: 0; }
+  .cover { position: relative; min-height: 100svh; height: auto; }
+  .cover.is-settled .cover-name { scale: 1; translate: 0 0; }
+  .motion-ready .cover-top, .motion-ready .cover-lede, .motion-ready .cover-enter, .motion-ready .cover-name { animation: none; }
+  .companion { translate: 0 0; }
+  .companion.is-pointing .companion-arm, .companion-figure:hover .companion-arm { transition: none; }
+}
+@media print { .cover-canvas, .companion { display: none; } .cover-wrap { height: auto; margin-bottom: 0; } .cover { position: relative; height: auto; min-height: 0; } }

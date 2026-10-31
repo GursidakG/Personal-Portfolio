@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T21:59:59.721742+00:00",
+  "title": "Design System: Gursidak Grover Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream",
+        "canonical": "oklch(93.9% 0.023 76)",
+        "tonalRamp": [
+          "#110a02",
+          "#2c2418",
+          "#494034",
+          "#696053",
+          "#8b8173",
+          "#aea395",
+          "#d2c7b9",
+          "#f8edde"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(96.6% 0.014 78)",
+        "tonalRamp": [
+          "#0e0a05",
+          "#29241e",
+          "#46413a",
+          "#656059",
+          "#878179",
+          "#aaa49c",
+          "#cec8c0",
+          "#f4eee5"
+        ]
+      },
+      "espresso": {
+        "role": "neutral",
+        "displayName": "Espresso",
+        "canonical": "oklch(25.5% 0.028 52)",
+        "tonalRamp": [
+          "#140802",
+          "#302118",
+          "#4f3e34",
+          "#6f5d53",
+          "#917e73",
+          "#b4a195",
+          "#d9c4b9",
+          "#ffeadd"
+        ]
+      },
+      "caramel": {
+        "role": "primary",
+        "displayName": "Caramel",
+        "canonical": "oklch(66.0% 0.116 63)",
+        "tonalRamp": [
+          "#280000",
+          "#490d00",
+          "#6b2f00",
+          "#8e4f00",
+          "#b3712d",
+          "#d89453",
+          "#ffb877",
+          "#ffdd9b"
+        ]
+      },
+      "rust": {
+        "role": "primary",
+        "displayName": "Rust",
+        "canonical": "oklch(55.6% 0.114 48)",
+        "tonalRamp": [
+          "#2a0000",
+          "#4d0400",
+          "#702900",
+          "#944a1e",
+          "#b96b42",
+          "#df8e64",
+          "#ffb287",
+          "#ffd7ab"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "oklch(50.7% 0.038 64)",
+        "tonalRamp": [
+          "#160700",
+          "#322111",
+          "#503e2d",
+          "#715d4b",
+          "#937e6b",
+          "#b6a18d",
+          "#dbc5b0",
+          "#ffead5"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "oklch(85.2% 0.030 76)",
+        "tonalRamp": [
+          "#120900",
+          "#2e2314",
+          "#4b4030",
+          "#6b5f4e",
+          "#8d806f",
+          "#b0a391",
+          "#d5c7b4",
+          "#fbecd9"
+        ]
+      },
+      "stage-sand": {
+        "role": "neutral",
+        "displayName": "Stage Sand",
+        "canonical": "oklch(86.7% 0.048 73)",
+        "tonalRamp": [
+          "#170700",
+          "#332106",
+          "#523e24",
+          "#725d42",
+          "#947e62",
+          "#b8a184",
+          "#ddc5a7",
+          "#ffeacc"
+        ]
+      },
+      "holo-light": {
+        "role": "tertiary",
+        "displayName": "Holo Light",
+        "canonical": "oklch(85.0% 0.091 74)",
+        "tonalRamp": [
+          "#1f0000",
+          "#3e1a00",
+          "#5e3900",
+          "#80581b",
+          "#a37a40",
+          "#c89c62",
+          "#edc186",
+          "#ffe6aa"
+        ]
+      },
+      "holo-text": {
+        "role": "tertiary",
+        "displayName": "Holo Text",
+        "canonical": "oklch(92.4% 0.028 76)",
+        "tonalRamp": [
+          "#120901",
+          "#2d2315",
+          "#4b4031",
+          "#6b5f50",
+          "#8c8070",
+          "#afa392",
+          "#d4c7b6",
+          "#faecda"
+        ]
+      },
+      "holo-muted": {
+        "role": "tertiary",
+        "displayName": "Holo Muted",
+        "canonical": "oklch(80.8% 0.050 74)",
+        "tonalRamp": [
+          "#170700",
+          "#332105",
+          "#523e22",
+          "#725d41",
+          "#957e61",
+          "#b8a183",
+          "#ddc5a6",
+          "#ffeaca"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Sage",
+        "canonical": "oklch(51.3% 0.040 131)",
+        "tonalRamp": [
+          "#060e00",
+          "#1e2914",
+          "#3b4730",
+          "#59664e",
+          "#7a886f",
+          "#9cab91",
+          "#c0cfb4",
+          "#e5f5d9"
+        ]
+      },
+      "turban-navy": {
+        "role": "secondary",
+        "displayName": "Turban Navy",
+        "canonical": "oklch(32.3% 0.039 268)",
+        "tonalRamp": [
+          "#050a1c",
+          "#1d2438",
+          "#394157",
+          "#586178",
+          "#78829b",
+          "#9aa5be",
+          "#bec9e4",
+          "#e3eeff"
+        ]
+      },
+      "skin": {
+        "role": "secondary",
+        "displayName": "Skin",
+        "canonical": "oklch(72.4% 0.085 62)",
+        "tonalRamp": [
+          "#210000",
+          "#411800",
+          "#613603",
+          "#84552a",
+          "#a7764b",
+          "#cc996d",
+          "#f2bd90",
+          "#ffe2b4"
+        ]
+      },
+      "redstone-red": {
+        "role": "secondary",
+        "displayName": "Redstone Red",
+        "canonical": "oklch(63.5% 0.251 28)",
+        "tonalRamp": [
+          "#2d0000",
+          "#510000",
+          "#751f19",
+          "#9a4238",
+          "#c06458",
+          "#e6877a",
+          "#ffaa9d",
+          "#ffd0c1"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The name in the hero only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings; one rust italic phrase each."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card and timeline titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs and lists at 17px / 1.8."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Buttons, chips, links, captions."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase tracked section labels and item types."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-hover",
+        "value": "0 12px 26px #c4813f15",
+        "purpose": "Service and project cards on hover with a 5 to 6px lift."
+      },
+      {
+        "name": "button-hover",
+        "value": "0 7px 22px #c4813f32",
+        "purpose": "Primary buttons on hover with a 3px lift."
+      },
+      {
+        "name": "speech-bubble",
+        "value": "0 14px 28px -14px rgb(98 66 35 / .45)",
+        "purpose": "The floating Click on me note."
+      },
+      {
+        "name": "hologram",
+        "value": "0 40px 70px -34px rgb(46 31 22 / .7), -18px 22px 70px -28px rgb(196 129 63 / .6)",
+        "purpose": "The assistant panel, lit from the watch at the lower left."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Hero poses, panel arrival, hover waves."
+      },
+      {
+        "name": "motion-ease",
+        "value": "cubic-bezier(.2, .7, .2, 1)",
+        "purpose": "Section reveals and timeline entrances (0.8s)."
+      },
+      {
+        "name": "activation",
+        "value": "0s arms, 0.9s watch flash, 1s beam and panel, 1.55s settled",
+        "purpose": "The watch-tap sequence; close reverses in 0.35s."
+      },
+      {
+        "name": "idle",
+        "value": "breathe 4.4s, blink 6.2s, bubble 3.4s",
+        "purpose": "Character idle loops, paused offscreen and removed under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1450px"
+      },
+      {
+        "name": "lg",
+        "value": "1100px"
+      },
+      {
+        "name": "md",
+        "value": "960px"
+      },
+      {
+        "name": "sm",
+        "value": "800px"
+      },
+      {
+        "name": "hero-stack",
+        "value": "700px"
+      },
+      {
+        "name": "xs",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main call to action; caramel fill, lifts on hover.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Contact Me <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:22px;min-height:50px;padding:14px 22px;background:#c4813f;color:#24170e;border:1px solid #c4813f;border-radius:4px;font:600 14px/1.4 \"DM Sans\",Arial,sans-serif;text-decoration:none;transition:transform .2s,box-shadow .2s,background .2s}.ds-btn-primary:hover{background:#cc9156;box-shadow:0 7px 22px #c4813f32;transform:translateY(-3px)}.ds-btn-primary:focus-visible{outline:3px solid #a4592f;outline-offset:5px}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action beside the primary.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">View Resume</a>",
+      "css": ".ds-btn-outline{display:inline-flex;align-items:center;gap:22px;min-height:50px;padding:14px 22px;background:transparent;color:#2e1f16;border:1px solid #b7a38d;border-radius:4px;font:600 14px/1.4 \"DM Sans\",Arial,sans-serif;text-decoration:none;transition:transform .2s,box-shadow .2s,background .2s}.ds-btn-outline:hover{background:#fff4;box-shadow:0 7px 22px #c4813f20;transform:translateY(-3px)}.ds-btn-outline:focus-visible{outline:3px solid #a4592f;outline-offset:5px}"
+    },
+    {
+      "name": "Interest Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Hairline pill with a rust stroke icon.",
+      "html": "<span class=\"ds-chip\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#a4592f\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m12 2 2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6Z\"/></svg> Entrepreneurship</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border:1px solid #daccb9;border-radius:30px;color:#2e1f16;font:400 14px/1.4 \"DM Sans\",Arial,sans-serif}"
+    },
+    {
+      "name": "Nav Link",
+      "kind": "nav",
+      "description": "Sticky header link with a sliding rust underline.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"location\">Home</a><a href=\"#\">About</a><a href=\"#\">Projects</a></nav>",
+      "css": ".ds-nav{display:flex;gap:28px;background:#f4e9da;padding:12px 0}.ds-nav a{position:relative;padding:14px 0;color:#2e1f16;font:550 15px/1 \"DM Sans\",Arial,sans-serif;text-decoration:none}.ds-nav a::after{content:\"\";position:absolute;left:0;bottom:8px;width:100%;height:1px;background:#a4592f;transform:scaleX(0);transform-origin:left;transition:transform .22s}.ds-nav a:hover::after,.ds-nav a[aria-current]::after{transform:scaleX(1)}.ds-nav a[aria-current]{color:#a4592f}.ds-nav a:focus-visible{outline:3px solid #a4592f;outline-offset:5px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Contact form field on paper.",
+      "html": "<label class=\"ds-field\"><span>Your name</span><input placeholder=\"Alex Morgan\"></label>",
+      "css": ".ds-field{display:block;font:500 14px/1.4 \"DM Sans\",Arial,sans-serif;color:#2e1f16}.ds-field span{display:block;margin-bottom:8px}.ds-field input{width:100%;padding:13px;background:#fbf5ec;border:1px solid #d9c9b5;border-radius:4px;color:#2e1f16;font:400 17px/1.7 \"DM Sans\",Arial,sans-serif;transition:border-color .2s}.ds-field input::placeholder{color:#76634f}.ds-field input:focus{border-color:#a4592f;outline:3px solid #a4592f;outline-offset:5px}"
+    },
+    {
+      "name": "Service Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Paper card with hairline border; lifts and warms on hover.",
+      "html": "<article class=\"ds-card\"><h3>Automation &amp; Tooling</h3><p>Less repetition, more room to think.</p><div class=\"ds-card-tags\">SCRIPTS · DEVELOPER EXPERIENCE</div></article>",
+      "css": ".ds-card{padding:30px;background:#f9f3ea;border:1px solid #e1d3c2;border-radius:5px;color:#2e1f16;font-family:\"DM Sans\",Arial,sans-serif;transition:transform .25s,box-shadow .25s,border-color .25s}.ds-card:hover{transform:translateY(-5px);box-shadow:0 12px 26px #c4813f15;border-color:#c4813f}.ds-card h3{margin:0 0 13px;font:600 21px/1.4 \"DM Sans\",Arial,sans-serif;letter-spacing:-.4px}.ds-card p{margin:0 0 25px;font-size:17px;line-height:1.8;color:#75614f}.ds-card-tags{padding-top:15px;border-top:1px solid #daccb9;font:600 11px/1.4 \"DM Sans\",Arial,sans-serif;letter-spacing:.6px;color:#2e1f16}"
+    },
+    {
+      "name": "Hologram Panel",
+      "kind": "custom",
+      "refersTo": "holo-panel",
+      "description": "The assistant: espresso glass, amber lit edge, cream type.",
+      "html": "<section class=\"ds-holo\"><div class=\"ds-holo-head\"><h2>Ask me anything</h2><p>Answers come from this page.</p></div><div class=\"ds-holo-msg\"><span class=\"ds-holo-mark\"><svg viewBox=\"0 0 64 64\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"M38 61C20 54 6 38 9 12M9 12 5 6M26 61c18-7 32-23 29-49M55 12l4-6\" fill=\"none\" stroke=\"#24170e\" stroke-width=\"4.2\" stroke-linecap=\"round\"/><circle cx=\"32\" cy=\"33\" r=\"13.5\" fill=\"none\" stroke=\"#24170e\" stroke-width=\"4.2\"/><path d=\"M32 3c5 9 6 21 0 39-6-18-5-30 0-39z\" fill=\"#24170e\"/><rect x=\"24\" y=\"42\" width=\"16\" height=\"3.6\" rx=\"1.8\" fill=\"#24170e\"/><rect x=\"29.4\" y=\"45\" width=\"5.2\" height=\"11\" rx=\"2.2\" fill=\"#24170e\"/><circle cx=\"32\" cy=\"58.5\" r=\"3.2\" fill=\"#24170e\"/></svg></span><p>Hi! Ask me about my work, my projects, or where I'm headed.</p></div><div class=\"ds-holo-chips\"><button type=\"button\">What is Redstone Automations?</button><button type=\"button\">Where do you want to work?</button></div></section>",
+      "css": ".ds-holo{position:relative;max-width:400px;padding:20px 22px;background:rgb(46 31 22 / .9);color:#f1e4d2;border:1px solid rgb(212 154 97 / .5);border-radius:18px;box-shadow:0 40px 70px -34px rgb(46 31 22 / .7),-18px 22px 70px -28px rgb(196 129 63 / .6);font-family:\"DM Sans\",Arial,sans-serif;overflow:hidden}.ds-holo::after{content:\"\";position:absolute;top:0;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,#f2c58a,transparent)}.ds-holo h2{margin:0;font:500 25px/1.1 Fraunces,Georgia,serif;letter-spacing:-.6px;color:#fbf1e3}.ds-holo-head p{margin:5px 0 14px;font-size:12.5px;color:#d4bc9d}.ds-holo-msg{display:grid;grid-template-columns:26px 1fr;gap:11px;font-size:14.5px;line-height:1.6}.ds-holo-msg p{margin:2px 0 0}.ds-holo-mark{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:#c4813f}.ds-holo-chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}.ds-holo-chips button{padding:7px 12px;border:1px solid rgb(212 154 97 / .35);border-radius:20px;background:rgb(255 255 255 / .04);color:#ead9c2;font:400 12.5px/1.4 \"DM Sans\",Arial,sans-serif;cursor:pointer;transition:background .2s,border-color .2s}.ds-holo-chips button:hover{background:rgb(212 154 97 / .16);border-color:rgb(212 154 97 / .6)}.ds-holo-chips button:focus-visible{outline:2px solid #f2c58a;outline-offset:2px}"
+    },
+    {
+      "name": "Speech Bubble",
+      "kind": "custom",
+      "description": "The character's floating prompt.",
+      "html": "<span class=\"ds-speech\">Click on me<small>I have something to show you.</small></span>",
+      "css": ".ds-speech{position:relative;display:inline-block;padding:11px 15px 12px;background:#fcf7ef;border:1px solid #ddc7ab;border-radius:16px 16px 16px 4px;box-shadow:0 14px 28px -14px rgb(98 66 35 / .45);font:600 15px/1.25 \"DM Sans\",Arial,sans-serif;color:#2e1f16;transform:rotate(2deg)}.ds-speech small{display:block;margin-top:3px;font-size:12px;font-weight:400;color:#75614f}.ds-speech::after{content:\"\";position:absolute;left:-1px;bottom:-9px;width:14px;height:14px;background:#fcf7ef;border-left:1px solid #ddc7ab;border-bottom:1px solid #ddc7ab;clip-path:polygon(0 0,100% 0,0 100%)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Warm Workshop",
+    "overview": "A maker's desk in late-afternoon light. Cream paper, espresso ink, one caramel accent, and type that reads like a good magazine: a high-contrast serif for the few words that matter and a plain humanist sans for everything else. Density is editorial, not app-like; sections breathe at 100px, hairlines do the structural work, and colour is spent on emphasis only.\n\nThe one futuristic object in the room, the hologram, obeys the room's light. It glows amber, not cyan; its glass is espresso, not black; its type is cream. The hero's vector likeness is flat geometric vector in the same palette, so the person and the page belong to each other.",
+    "keyCharacteristics": [
+      "Warm neutrals with a single caramel-to-rust accent family",
+      "Fraunces display at tight tracking, DM Sans body at 17px / 1.8",
+      "Hairline structure; shadows only on hover and on the two floating objects (speech bubble, hologram)",
+      "One authored motion moment: the watch tap and the rising panel",
+      "Flat vector illustration, stroke-icon system at 1.6px, no emoji, no photography"
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Caramel and rust are the only accent hues. Emphasis is a rust italic word or a caramel fill, never a second hue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Amber Light Rule",
+        "body": "Anything that emits light on this site (the watch, the beam, the panel edge) is caramel or holo-light. No cyan, no white-blue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Rust Italic Rule",
+        "body": "One italic rust phrase per heading carries the emphasis. Never two, never a colour other than rust (or #d49a61 on espresso).",
+        "section": "typography"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Structure is a 1px line in Line; a shadow is a response to hover or to floating, never a resting state on a card.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "set body copy at 17px / 1.8 and labels uppercase at 12px with 1.6px tracking.",
+      "keep every emitted light caramel or holo-light.",
+      "use the stroke icon library (1.6px, round caps) for every icon.",
+      "list skills with where they shipped; the site deliberately has no proficiency bars.",
+      "keep the hologram's answers honest: text from the knowledge base only, links from the same source."
+    ],
+    "donts": [
+      "introduce a second accent hue or use Redstone Red outside the cube mark.",
+      "add a photograph of the owner to the hero; the vector likeness is the hero.",
+      "make the hologram cyan, black, or white.",
+      "add resting shadows to cards.",
+      "use emoji or Unicode glyphs as icons."
+    ]
+  }
+}

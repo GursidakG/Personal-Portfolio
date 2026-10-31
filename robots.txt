@@ -1,0 +1,17 @@
+# Everyone is welcome to read this page, including AI crawlers.
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Add a Sitemap: line with the absolute URL once the domain is known.

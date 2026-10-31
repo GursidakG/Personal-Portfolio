@@ -1,0 +1,289 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Gursidak Singh Grover",
+    "label": "Software Engineering Student · SWE Intern at SensTek Diagnostics · Co-Founder & CTO, Redstone Automations",
+    "email": "gursidakg123@gmail.com",
+    "summary": "Second-year Software Engineering student at York University's Lassonde School of Engineering. Software Engineering Intern at SensTek Diagnostics and Co-Founder & CTO of Redstone Automations (formerly AIVAA), building AI agents, websites and integrations for local businesses. Long-term goal: work at NVIDIA. Seeking a Software Engineering internship for Summer 2027.",
+    "location": {
+      "city": "Brampton",
+      "region": "Ontario",
+      "countryCode": "CA"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gursidak-singh-grover-a8a345256",
+        "url": "https://www.linkedin.com/in/gursidak-singh-grover-a8a345256/"
+      },
+      {
+        "network": "GitHub",
+        "username": "GursidakG",
+        "url": "https://github.com/GursidakG"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "SensTek Diagnostics",
+      "position": "Software Engineering Intern",
+      "url": "https://senstekdx.com",
+      "startDate": "2026-05",
+      "highlights": [
+        "Architected and deployed a full-stack proposal (Django/DRF, React, React Native) that became SensTek's build roadmap",
+        "Connected lab equipment activity to the web app by building Python tracking scripts and a MySQL database",
+        "Cut pull request review time by 30% by building an automated dependency-graph visualizer and PR-commenting bot",
+        "Redesigned senstekdx.com's landing page to improve visitor click-through, benchmarking 9 industry competitors"
+      ]
+    },
+    {
+      "name": "Redstone Automations",
+      "position": "Co-Founder & CTO",
+      "startDate": "2026-02",
+      "summary": "Formerly AIVAA.",
+      "highlights": [
+        "Co-founded Redstone Automations, building voice AI receptionists, websites and agentic workflows for local businesses",
+        "Served as the main forward-deployed engineer, building AI voice agents with custom knowledge bases tied to client calendars",
+        "Engineer multi-step LLM tool calling into client APIs, CRMs, and email, validating outputs with RAG and guardrails",
+        "Own the full sales cycle for about 15 active customers, from cold outreach and discovery through closing"
+      ],
+      "url": "https://redstoneautomations.si"
+    },
+    {
+      "name": "Nutritionwize Diet Clinic",
+      "position": "Mobile App Developer",
+      "startDate": "2025-07",
+      "endDate": "2025-09",
+      "highlights": [
+        "Scoped and authored a full PRD for a 3-module React Native app spanning AI chat, telehealth, and a dietitian portal",
+        "Gathered dietitian requirements and wrote feature specs, improving practitioner efficiency by 10%",
+        "Piloted the app with 100+ patients and practitioners at the clinic"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "YorkU CS Hub",
+      "position": "Executive Member",
+      "startDate": "2025-12",
+      "highlights": [
+        "Co-organize tech events and networking sessions",
+        "Support day-to-day club operations"
+      ]
+    },
+    {
+      "organization": "Hack Club, North Park Secondary School",
+      "position": "Executive",
+      "startDate": "2023",
+      "endDate": "2025",
+      "highlights": [
+        "Organized hackathons and workshops that drew over 200 participants",
+        "Taught coding fundamentals and coordinated executive meetings"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "York University, Lassonde School of Engineering",
+      "area": "Software Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2025-09",
+      "courses": [
+        "Discrete Mathematics for Engineers",
+        "Applied Linear Algebra",
+        "Applied Multivariate & Vector Calculus",
+        "Electricity & Magnetism",
+        "Advanced Object-Oriented Programming (Java)"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Distinction, Canadian Computing Competition (CCC)"
+    },
+    {
+      "title": "Distinction, Fermat Mathematics Competition"
+    },
+    {
+      "title": "Peel Region Hackathon Winner"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Google Data Analytics Certificate",
+      "issuer": "Google"
+    },
+    {
+      "name": "Google Cybersecurity Certificate",
+      "issuer": "Google"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner (in progress)",
+      "issuer": "Amazon Web Services"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "C++",
+        "Go"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Django",
+        "Django REST Framework",
+        "React Native"
+      ]
+    },
+    {
+      "name": "Tools and platforms",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "SQL",
+        "MySQL",
+        "AWS",
+        "REST API integration",
+        "Data Structures & Algorithms"
+      ]
+    },
+    {
+      "name": "AI",
+      "keywords": [
+        "LLMs",
+        "Tool calling",
+        "RAG",
+        "Machine learning",
+        "Voice AI agents"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Punjabi",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Competitive programming"
+    },
+    {
+      "name": "Entrepreneurship"
+    },
+    {
+      "name": "Mathematics"
+    },
+    {
+      "name": "Music"
+    }
+  ],
+  "projects": [
+    {
+      "name": "NoteVis",
+      "description": "Chrome extension that turns any webpage into structured study notes (summary, key points, glossary) on-device. Published to the Chrome Web Store.",
+      "highlights": [
+        "Passed Chrome Web Store review with minimal permissions and a hosted privacy policy",
+        "5.0 rating from its first reviewers"
+      ],
+      "keywords": [
+        "JavaScript",
+        "Chrome Extension APIs"
+      ],
+      "startDate": "2026",
+      "type": "application",
+      "url": "https://chromewebstore.google.com/detail/notevis/iocjnepieopkfcmheegkoccpkdjdnlmi"
+    },
+    {
+      "name": "Chess Engine",
+      "description": "Playable Python chess app with a dark tournament-hall board and a threaded minimax AI using alpha-beta pruning.",
+      "highlights": [
+        "Wins about 70% of games against intermediate players",
+        "Check, checkmate and stalemate detection, castling, en passant, promotion, evaluation bar, timers, move history"
+      ],
+      "keywords": [
+        "Python",
+        "Pygame",
+        "python-chess",
+        "Minimax",
+        "Alpha-beta pruning"
+      ],
+      "url": "https://github.com/GursidakG/Chess",
+      "startDate": "2025",
+      "endDate": "2026",
+      "type": "application"
+    },
+    {
+      "name": "Nutritionwize App",
+      "description": "Full-stack React Native app with AI chat, data imports and a faster search experience.",
+      "highlights": [
+        "CSV validation and row-level error handling in Node.js",
+        "AI chat using OpenAI's GPT-4o API",
+        "Go search API rework cut p95 latency by 12%"
+      ],
+      "keywords": [
+        "React Native",
+        "Node.js",
+        "Go",
+        "OpenAI API"
+      ],
+      "startDate": "2025",
+      "type": "application"
+    },
+    {
+      "name": "Weather Dashboard",
+      "description": "React weather app on Open-Meteo with current conditions, a five-day forecast, hourly charts, a °C/°F toggle and weather-based backgrounds.",
+      "url": "https://github.com/GursidakG/Weather-Dashboard",
+      "keywords": [
+        "React",
+        "JavaScript"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Ember Tide Crystal Temple",
+      "description": "Puzzle-platformer where you switch between water and fire heroes, collect crystals and reach the portal before time runs out.",
+      "url": "https://github.com/GursidakG/Ember-Tide-Crystal-Temple",
+      "keywords": [
+        "JavaScript"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "What Are The Odds",
+      "description": "Aggregates live odds from sportsbooks, compares lines and tracks their movement.",
+      "url": "https://github.com/GursidakG/WhatAreTheOdds-",
+      "keywords": [
+        "JavaScript",
+        "HTML"
+      ],
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "lastModified": "2026-10-30"
+  }
+}
